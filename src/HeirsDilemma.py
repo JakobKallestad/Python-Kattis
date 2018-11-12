@@ -6,6 +6,8 @@ combinations = 0
 
 for i in range(end-start):
     check = start+i
+    if check%2 != 0:
+        continue
     temp = str(check)
     temp_set = set()
     fail = False
