@@ -25,8 +25,7 @@ while True:
         print("end")
         break
     answer = [[] for _ in range(7)]
-    time = time.split(':')
-    digits = [time[0][0], time[0][1], ':', time[1][0], time[1][1]]
+    digits = list(time)
 
     for j, d in enumerate(digits):
         dig = digits_map[d]
