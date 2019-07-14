@@ -98,6 +98,7 @@ RGYB
 '''
 
 # Worst text case imagineable (does not work for this one):
+# Should try if it works in C++
 '''
 RBGW
 WWWW
