@@ -1,0 +1,1 @@
+print(1) if int(input()) == 1 else print(1, *list(zip(*sorted(list(enumerate(list(map(int, input().split())), start=2)), key=lambda x: x[1])))[0])
